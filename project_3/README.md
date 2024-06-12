@@ -1,5 +1,3 @@
-資工三 陳昱瑋 409410118
-
 To compile and execute type checker, follow following step:
 
 1. `make result_1`
