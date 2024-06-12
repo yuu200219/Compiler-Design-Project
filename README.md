@@ -9,4 +9,4 @@
 - We implement the complete compiler for C in project 4.
 ## Environment settings
 ### Install ANTLR for Java
-- You can folloing instruction at (here)[https://ecourse2.ccu.edu.tw/pluginfile.php/1259695/mod_folder/content/0/ANTLR_1_V4.pdf?forcedownload=1]
+- You can folloing instruction at [here](https://ecourse2.ccu.edu.tw/pluginfile.php/1259695/mod_folder/content/0/ANTLR_1_V4.pdf?forcedownload=1)
