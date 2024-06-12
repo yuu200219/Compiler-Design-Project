@@ -1,5 +1,3 @@
-資工三 陳昱瑋 409410118
-
 To compile and execute lexical analyzer, follow following step:
 
 1. make result_1 (it will generate mylexer.java and mylexer.tokens)
