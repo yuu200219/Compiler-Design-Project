@@ -11,4 +11,4 @@
 ### Install Antlr for Java
 - You can folloing instruction at [here](https://ecourse2.ccu.edu.tw/pluginfile.php/1259695/mod_folder/content/0/ANTLR_1_V4.pdf?forcedownload=1)
 - This project using Antlr4
-- For more information, check [Antlr](https://github.com/antlr)
+- For more information, check [Antlr github's page](https://github.com/antlr)
