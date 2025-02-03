@@ -1,3 +1,4 @@
+# How to compile
 - To compile and execute lexical analyzer, follow following step:
   1. `make result_1`
      - It will generate mylexer.java and mylexer.tokens.
