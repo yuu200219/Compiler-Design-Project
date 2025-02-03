@@ -11,3 +11,23 @@
       - it will analyze the token of test_3.
 
 - NOTE: In Makefile, CLASSPATH need to change to your own directory of antlr.jar!
+
+# Output Explaination
+- According to the file `testLexer.java`
+  ```java=
+  try {
+    CharStream input = new ANTLRFileStream(args[0]);
+	  mylexer lexer = new mylexer(input);
+    Token token = lexer.nextToken();
+    while (token.getType() != -1) {  // -1 is EOF.
+	    System.out.println("Token: "+token.getType() + " " + token.getText());
+	    token = lexer.nextToken();
+	   }
+  }
+  catch(Throwable t) {
+    System.out.println("Exception: "+t);
+    t.printStackTrace();
+  }
+  ```
+  - It will scan over the test code, and output each token type(it will be a number) and text
+  - If the token is not defined in the file `myLexer.g`, it will throw exception.
