@@ -1,3 +1,4 @@
+# How to compile
 - To compile and execute lexical analyzer, follow following step:
 
 1. `make result_1`
@@ -13,3 +14,8 @@
 
 - Using antlr-3.5.3-complete-no-st3.jar.
 - NOTE: In Makefile, CLASSPATH need to change to your own directory of antlr.jar!
+
+# Output Explaination
+- It is the project succeededd from project 1
+- Adding parsing feature (syntax analyze)
+- output grammar rules in the code generator part.
